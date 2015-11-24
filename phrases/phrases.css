@@ -1,0 +1,10 @@
+.general {
+	background-color: #C0C0C0;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.delete {
+	width: 20px;
+	height: 20px;
+}

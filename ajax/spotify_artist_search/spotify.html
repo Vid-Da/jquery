@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Spotify finder</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="spotify.css">	
+</head>
+<body>
+	<h1>Welcome to spotify artist searcher</h1>
+
+
+  <input type='text' id='artist_search' placeholder='search any artist'>
+  <button id="search" type="submit">SEARCH</button>
+
+	
+	<div class='all_artists'>
+		<p>Artists found:</p>
+  	<ul class="js-artists-list">
+  </div>
+
+  <div class='all_albums'>
+  	<p>Albums found:</p>
+  	<ul class="js-albums-list"></ul>
+  </div>
+
+	<script src='spotify.js'></script>
+</body>
+</html>
